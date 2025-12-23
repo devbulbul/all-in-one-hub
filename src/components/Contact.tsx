@@ -7,14 +7,14 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone",
-    value: "+91 98765 43210",
-    link: "tel:+919876543210",
+    value: "+91 98592 98707",
+    link: "tel:+919859298707",
   },
   {
     icon: Mail,
     title: "Email",
-    value: "info@digitalseva.com",
-    link: "mailto:info@digitalseva.com",
+    value: "hussainjakir21@gmail.com",
+    link: "mailto:hussainjakir21@gmail.com",
   },
   {
     icon: MapPin,
