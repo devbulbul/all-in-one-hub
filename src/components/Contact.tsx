@@ -19,7 +19,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Address",
-    value: "Shop No. 123, Main Road, Your City - 123456",
+    value: "Jashodar Pam Tiniali Chok, Near High School, 781311",
     link: "#",
   },
   {

@@ -27,7 +27,7 @@ const Header = () => {
           </div>
           <div className="flex items-center gap-1">
             <MapPin className="w-3 h-3" />
-            <span>Main Road, Near Bus Stand, Your City</span>
+            <span>Jashodar Pam Tiniali Chok, Near High School, 781311</span>
           </div>
         </div>
       </div>
