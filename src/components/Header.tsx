@@ -20,9 +20,9 @@ const Header = () => {
       <div className="bg-primary text-primary-foreground py-2 px-4">
         <div className="container mx-auto flex flex-wrap justify-between items-center text-sm gap-2">
           <div className="flex items-center gap-4">
-            <a href="tel:+919876543210" className="flex items-center gap-1 hover:text-accent transition-colors">
+            <a href="tel:+919859298707" className="flex items-center gap-1 hover:text-accent transition-colors">
               <Phone className="w-3 h-3" />
-              <span>+91 98765 43210</span>
+              <span>+91 98592 98707</span>
             </a>
           </div>
           <div className="flex items-center gap-1">
