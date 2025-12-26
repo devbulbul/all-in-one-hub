@@ -20,7 +20,7 @@ const contactInfo = [
     icon: MapPin,
     title: "Address",
     value: "Jashodar Pam Tiniali Chok, Near High School, 781311",
-    link: "#",
+    link: "https://maps.app.goo.gl/yJ7T6QVbWSbMPhKi6",
   },
   {
     icon: Clock,

@@ -26,10 +26,10 @@ const Header = () => {
               <span>+91 98592 98707</span>
             </a>
           </div>
-          <div className="flex items-center gap-1">
+          <a href="https://maps.app.goo.gl/yJ7T6QVbWSbMPhKi6" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-primary transition-colors">
             <MapPin className="w-3 h-3" />
             <span>Jashodar Pam Tiniali Chok, Near High School, 781311</span>
-          </div>
+          </a>
         </div>
       </div>
 

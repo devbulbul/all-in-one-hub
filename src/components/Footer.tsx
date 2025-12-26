@@ -79,11 +79,13 @@ const Footer = () => {
           <div>
             <h4 className="font-bold text-lg mb-6">Contact Us</h4>
             <ul className="space-y-4">
-              <li className="flex items-start gap-3">
-                <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
-                <span className="text-background/70 text-sm">
-                  Jashodar Pam Tiniali Chok,<br />Near High School, 781311
-                </span>
+              <li>
+                <a href="https://maps.app.goo.gl/yJ7T6QVbWSbMPhKi6" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 text-background/70 hover:text-accent transition-colors">
+                  <MapPin className="w-5 h-5 text-accent flex-shrink-0 mt-0.5" />
+                  <span className="text-sm">
+                    Jashodar Pam Tiniali Chok,<br />Near High School, 781311
+                  </span>
+                </a>
               </li>
               <li>
                 <a href="tel:+919859298707" className="flex items-center gap-3 text-background/70 hover:text-accent transition-colors text-sm">
