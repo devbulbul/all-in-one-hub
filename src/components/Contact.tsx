@@ -76,6 +76,8 @@ const Contact = () => {
               <a
                 key={index}
                 href={info.link}
+                target={info.link.startsWith("http") ? "_blank" : undefined}
+                rel={info.link.startsWith("http") ? "noopener noreferrer" : undefined}
                 className="flex items-start gap-4 p-4 rounded-xl bg-card border border-border/50 hover:shadow-card hover:border-primary/20 transition-all duration-300 group"
               >
                 <div className="w-12 h-12 rounded-lg bg-primary/10 flex items-center justify-center flex-shrink-0 group-hover:bg-primary/20 transition-colors">
@@ -169,6 +171,24 @@ const Contact = () => {
                 <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Button>
             </form>
+          </div>
+        </div>
+
+        {/* Google Maps Embed */}
+        <div className="mt-16">
+          <h3 className="text-2xl font-bold text-foreground mb-6 text-center">Find Us Here</h3>
+          <div className="rounded-2xl overflow-hidden shadow-card border border-border/50">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3581.0747073954974!2d91.9927!3d26.1827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x375a5a287f9885c1%3A0x7c0b5e9b3a3b3b3b!2sJashodar%20Pam%20Tiniali%20Chok!5e0!3m2!1sen!2sin!4v1703606400000!5m2!1sen!2sin"
+              width="100%"
+              height="400"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Bulbul Computer Centre Location"
+              className="w-full"
+            />
           </div>
         </div>
       </div>
