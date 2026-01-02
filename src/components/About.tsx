@@ -28,7 +28,7 @@ const About = () => {
             </span>
             <h2 className="text-3xl md:text-5xl font-bold text-foreground mb-6">
               Trusted Digital Services
-              <span className="gradient-text block">Since 2019</span>
+              <span className="gradient-text block">Since 2012</span>
             </h2>
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
               We are a government-authorized Common Service Centre (CSC) dedicated to bringing 
