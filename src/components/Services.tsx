@@ -12,7 +12,7 @@ import {
   IdCard
 } from "lucide-react";
 import xeroxMachine from "@/assets/xerox-machine.png";
-import cameraImg from "@/assets/camera.png";
+import photoPrintingImg from "@/assets/photo-printing.png";
 import pvcCardImg from "@/assets/pvc-card.png";
 import ticketBookingImg from "@/assets/ticket-booking.png";
 import hotelImg from "@/assets/hotel.png";
@@ -24,7 +24,7 @@ import panCardImg from "@/assets/pan-card.png";
 
 const serviceBackgrounds: Record<string, string> = {
   "Xerox & Printing": xeroxMachine,
-  "Photo Printing": cameraImg,
+  "Photo Printing": photoPrintingImg,
   "PVC Card Printing": pvcCardImg,
   "Ticket Booking": ticketBookingImg,
   "Hotel Booking": hotelImg,
