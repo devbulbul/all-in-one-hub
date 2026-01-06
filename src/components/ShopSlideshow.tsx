@@ -1,8 +1,9 @@
 import { useEffect, useState } from "react";
 import shopSlide1 from "@/assets/shop-slide-1.jpg";
 import shopSlide2 from "@/assets/shop-slide-2.png";
+import shopSlide3 from "@/assets/shop-slide-3.png";
 
-const slides = [shopSlide1, shopSlide2];
+const slides = [shopSlide1, shopSlide2, shopSlide3];
 
 const ShopSlideshow = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
